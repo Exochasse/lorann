@@ -37,7 +37,7 @@ public class Scene extends JPanel{
 		this.dy = 0;
 		lorann = new Lorann(48, 48);
 		
-		icoFond = new ImageIcon(getClass().getResource("/Sprite/fond noir.png"));
+		icoFond = new ImageIcon(getClass().getResource("/Sprite/fond_noir.jpg"));
 		this.ImageFond = this.icoFond.getImage();
 		
 		this.setFocusable(true);

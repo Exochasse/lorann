@@ -14,7 +14,7 @@ public class Lorann extends Personnage {
 	public Lorann(int x, int y) {
 		
 		super(x, y, 32, 32);
-		this.icoLorann = new ImageIcon("Sprite/lorann_ur.png");
+		this.icoLorann = new ImageIcon("gitProjetJava/src/main/java/Sprite/lorann_ur.png");
 		this.imageLorann = this.icoLorann.getImage();
 	}
 	

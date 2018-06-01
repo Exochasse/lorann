@@ -13,14 +13,14 @@ public class Clavier implements KeyListener{
 		if(e.getKeyCode() == KeyEvent.VK_RIGHT) {
 			Main.scene.setDx(-32);
 			try {
-				Thread.sleep(PAUSE);
+				Thread.sleep(100);
 			} catch (InterruptedException e1) {
 			}
 		}
 		else if(e.getKeyCode() == KeyEvent.VK_LEFT) {
 			Main.scene.setDx(32);
 			try {
-				Thread.sleep(PAUSE);
+				Thread.sleep(100);
 			} catch (InterruptedException e1) {
 			}
 		}
@@ -28,7 +28,7 @@ public class Clavier implements KeyListener{
 		else if(e.getKeyCode() == KeyEvent.VK_UP) {
 			Main.scene.setDy(32);
 			try {
-				Thread.sleep(PAUSE);
+				Thread.sleep(100);
 			} catch (InterruptedException e1) {
 			}
 		}
@@ -36,7 +36,7 @@ public class Clavier implements KeyListener{
 		else if(e.getKeyCode() == KeyEvent.VK_DOWN) {
 			Main.scene.setDy(-32);
 			try {
-				Thread.sleep(PAUSE);
+				Thread.sleep(100);
 			} catch (InterruptedException e1) {
 			}
 		}

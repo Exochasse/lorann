@@ -3,7 +3,7 @@ package fr.celian.ProjetJava;
 public class Chrono implements Runnable{
 
 	// On s'arrete 3 millisecondes entre chaque tour de boucle avant de repeindre l'écran
-	private final int PAUSE = 10;
+	private final int PAUSE = 40;
 	
 	
 	public void run() {
